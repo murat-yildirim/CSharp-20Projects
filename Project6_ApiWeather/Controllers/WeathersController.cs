@@ -11,9 +11,9 @@ namespace Project6_ApiWeather.Controllers
 	public class WeathersController : ControllerBase
 	{
 		WeatherContext context = new WeatherContext();
-		// her bir api işleminin ne iş yapacağını köşeli parantizler içerisindeki etrübütler aracılığıyla programı iletiyoruz.
+		
 		[HttpGet]
-		public IActionResult WeatherCityList() // asp.net core projelerinde backend kodları method içerisine yazılıyor
+		public IActionResult WeatherCityList() 
 		{
 			var values = context.Cities.ToList();
 			return Ok(values);
