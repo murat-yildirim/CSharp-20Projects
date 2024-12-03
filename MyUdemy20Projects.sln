@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project8_RapidApiCurrency",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project9_MongoDbOrder", "Project9_MongoDbOrder\Project9_MongoDbOrder.csproj", "{2EC90C01-48A9-44A2-A720-46552B559491}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project10_PostgreSQLToDoListApp", "Project10_PostgreSQLToDoListApp\Project10_PostgreSQLToDoListApp.csproj", "{689BC1B1-3F56-4FEA-9353-F12BCE6D0988}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{2EC90C01-48A9-44A2-A720-46552B559491}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EC90C01-48A9-44A2-A720-46552B559491}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EC90C01-48A9-44A2-A720-46552B559491}.Release|Any CPU.Build.0 = Release|Any CPU
+		{689BC1B1-3F56-4FEA-9353-F12BCE6D0988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689BC1B1-3F56-4FEA-9353-F12BCE6D0988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689BC1B1-3F56-4FEA-9353-F12BCE6D0988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689BC1B1-3F56-4FEA-9353-F12BCE6D0988}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
