@@ -31,7 +31,7 @@ namespace Project_13WeatherApp
 				RequestUri = new Uri("https://open-weather13.p.rapidapi.com/city/istanbul/EN"),
 				Headers =
 	{
-		{ "x-rapidapi-key", "1ccc143384msh762637ad3480ecep1fe27djsndc8d1d7b2069" },
+		{ "x-rapidapi-key", "e54de6b5a8msh7c98e1f686edca1p1436fejsna0ad4170cb44" },
 		{ "x-rapidapi-host", "open-weather13.p.rapidapi.com" },
 	},
 			};
@@ -46,7 +46,7 @@ namespace Project_13WeatherApp
 				lblFahrenheit.Text = fahrenheit;
 				lblHumidity.Text = humidity;
 				lblWindSpeed.Text = windSpeed;
-				double celcius = (double.Parse( fahrenheit) - 32);
+				double celcius = (double.Parse(fahrenheit) - 32);
 				double celciusValue = celcius / 1.8;
 				lblCelsius.Text = celciusValue.ToString("0.00");
 
@@ -54,24 +54,24 @@ namespace Project_13WeatherApp
 
 				string filePath = @"C:\Users\Dell\source\repos\MyUdemy20Projects\Project_13WeatherApp\images\";
 				string fileName = "";
-				
+
 				if (weather == "Clouds")
 				{
 					fileName = "cloud.png";
 				}
-				else if(weather == "Sun")
+				else if (weather == "Sun")
 				{
 					fileName = "sun.png";
 				}
-				else if(weather == "Snow")
+				else if (weather == "Snow")
 				{
 					fileName = "snow.png";
 				}
-				else if(weather == "Rain")
+				else if (weather == "Rain")
 				{
 					fileName = "rainy.png";
 				}
-				else if(weather == "Mist")
+				else if (weather == "Mist")
 				{
 					fileName = "mist.png";
 				}
