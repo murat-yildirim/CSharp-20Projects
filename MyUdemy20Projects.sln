@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project_13WeatherApp", "Pro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project14_SQLAllRelations", "Project14_SQLAllRelations\Project14_SQLAllRelations.csproj", "{547C2867-49E4-4D83-B5B2-9AE90E5E6106}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project15_GasPriceSimulation", "Project15_GasPriceSimulation\Project15_GasPriceSimulation.csproj", "{D706D9DD-4469-4746-82D8-28F96D65B31F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{547C2867-49E4-4D83-B5B2-9AE90E5E6106}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{547C2867-49E4-4D83-B5B2-9AE90E5E6106}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{547C2867-49E4-4D83-B5B2-9AE90E5E6106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D706D9DD-4469-4746-82D8-28F96D65B31F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D706D9DD-4469-4746-82D8-28F96D65B31F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D706D9DD-4469-4746-82D8-28F96D65B31F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D706D9DD-4469-4746-82D8-28F96D65B31F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
